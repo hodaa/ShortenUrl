@@ -14,7 +14,7 @@ class BaseApiController {
 
     protected function payloadData($url, $short_code) {
 
-        return response()->json(["data" => ['sort_url' => Config::get('constants.url') . $short_code,
+        return response()->json(["data" => [ 'short_url' => url('/') .'/' . $short_code,
                         'long_url' => $url],
                     "status_code" => 200,
                     "status_txt" => "OK"
