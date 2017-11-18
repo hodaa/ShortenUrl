@@ -14,7 +14,7 @@ class ShortenUrlTest extends TestCase {
      */
     public function testResposne() {
 
-        $response = $this->get('/short_url');
+        $response = $this->get('/api/short_url');
         $response->assertStatus(200);
     }
 
