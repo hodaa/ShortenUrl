@@ -1,7 +1,7 @@
 # ShortenUrl
 ----
 Given a full URL, returns an  short URL. Currently the API only supports shortening a single URL per API call.
-Current API Version: 1_>
+Current API Version: 1
 
 * **URL**
  api/short_url
@@ -12,7 +12,7 @@ Current API Version: 1_>
 *  **URL Params**
 
  
-   `shortUrl=[string]`
+   `short_url=[string]`
 
    
 
@@ -38,4 +38,4 @@ Current API Version: 1_>
     }
 
 * **Sample Call:**
-    http://localhost/ShortenUrl/public/api/short_url?url=    https://app.getpostman.com/app/download/win64
+    http://localhost/ShortenUrl/public/api/short_url?url=your_url
