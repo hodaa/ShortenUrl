@@ -17,5 +17,5 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('/short_url','Api\V1\shortUrlController@index');
+Route::get('/short_url','Api\V1\ShortUrlController@index');
 //Route::get('/{url}','shortUrlController@shortToUrl');

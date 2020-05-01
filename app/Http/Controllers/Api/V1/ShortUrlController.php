@@ -10,7 +10,7 @@ use Config;
 
 class ShortUrlController extends BaseApiController {
 
-    function index() {
+    public function index() {
         $url = Input::get('url');
 
         if (empty($url)) {
