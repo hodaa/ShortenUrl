@@ -33,16 +33,18 @@ Current API Version: 1
 
 * **Sample Call:**
     {url}/api/short_url?url=your_url
+    
 
-#installation
+# installation
 `php artisan key:generate`
+
 `composer install`
-`copy .env.example  to .env and change your DB config`
+
+copy `.env.example`  to `.env` then change your DB config
+
 `php artisan migragte`
 
-# web tool
-1- http://localhost
-2- enter you long URl
 
-#Tools
+
+# Tools
 * Laravel 5.5
